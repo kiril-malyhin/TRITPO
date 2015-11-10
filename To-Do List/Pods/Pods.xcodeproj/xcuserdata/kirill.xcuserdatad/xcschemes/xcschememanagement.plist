@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>LGActionSheet.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>LGPlusButtonsView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>MagicalRecord.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-To-Do List.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0F0723965283AFD6B0BE0B3C5DC98230</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>421ED715FB5CFA5E8BA4165C76FD96D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE2DFCE25DBE6F0545C5F0E334C2F332</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E588DE88098D6B4240CAFF9576576D86</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
