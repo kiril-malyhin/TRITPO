@@ -14,6 +14,8 @@
 		4E8AB4AB1BEFDA39000B857D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8AB4AA1BEFDA39000B857D /* Assets.xcassets */; };
 		4E8AB4AE1BEFDA39000B857D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8AB4AC1BEFDA39000B857D /* LaunchScreen.storyboard */; };
 		A1170E433C4BCA5CDCB5B6D5 /* libPods-To-Do List.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D471C1EF87F362E4E87584E /* libPods-To-Do List.a */; };
+		ED2E57891C0857E800620A17 /* To_Do_ListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E57881C0857E800620A17 /* To_Do_ListTests.m */; };
+		ED2E57971C08632B00620A17 /* To_Do_ListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2E57961C08632B00620A17 /* To_Do_ListUITests.m */; };
 		EDDFD47B1BF09DF300D5630F /* KMListTaskTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDFD47A1BF09DF300D5630F /* KMListTaskTableViewController.m */; };
 		EDDFD4851BF0A07400D5630F /* KMDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDFD4841BF0A07400D5630F /* KMDataManager.m */; };
 		EDDFD48B1BF0A21000D5630F /* KMTask+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDFD4881BF0A21000D5630F /* KMTask+CoreDataProperties.m */; };
@@ -26,6 +28,23 @@
 		EDDFD4A21BF0C9BF00D5630F /* KMTaskListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDFD4A11BF0C9BE00D5630F /* KMTaskListCell.m */; };
 		EDDFD4A51BF0CCFE00D5630F /* KMHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDFD4A41BF0CCFE00D5630F /* KMHeaderView.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED2E578B1C0857E800620A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8AB4901BEFDA39000B857D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E8AB4971BEFDA39000B857D;
+			remoteInfo = "To-Do List";
+		};
+		ED2E57991C08632B00620A17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8AB4901BEFDA39000B857D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E8AB4971BEFDA39000B857D;
+			remoteInfo = "To-Do List";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1D471C1EF87F362E4E87584E /* libPods-To-Do List.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-To-Do List.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +59,12 @@
 		4E8AB4AF1BEFDA39000B857D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBFC013BC8B5EAEC71F82645 /* Pods-To-Do List.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-To-Do List.debug.xcconfig"; path = "Pods/Target Support Files/Pods-To-Do List/Pods-To-Do List.debug.xcconfig"; sourceTree = "<group>"; };
 		ECFFFC1C6494BDA27F551C3A /* Pods-To-Do List.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-To-Do List.release.xcconfig"; path = "Pods/Target Support Files/Pods-To-Do List/Pods-To-Do List.release.xcconfig"; sourceTree = "<group>"; };
+		ED2E57861C0857E800620A17 /* To-Do ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To-Do ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2E57881C0857E800620A17 /* To_Do_ListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = To_Do_ListTests.m; sourceTree = "<group>"; };
+		ED2E578A1C0857E800620A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2E57941C08632B00620A17 /* To-Do ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To-Do ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2E57961C08632B00620A17 /* To_Do_ListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = To_Do_ListUITests.m; sourceTree = "<group>"; };
+		ED2E57981C08632B00620A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDDFD4791BF09DF300D5630F /* KMListTaskTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMListTaskTableViewController.h; path = "Tasks List/KMListTaskTableViewController.h"; sourceTree = "<group>"; };
 		EDDFD47A1BF09DF300D5630F /* KMListTaskTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KMListTaskTableViewController.m; path = "Tasks List/KMListTaskTableViewController.m"; sourceTree = "<group>"; };
 		EDDFD4831BF0A07400D5630F /* KMDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMDataManager.h; path = Manager/KMDataManager.h; sourceTree = "<group>"; };
@@ -73,6 +98,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED2E57831C0857E800620A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2E57911C08632B00620A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				4E8AB49A1BEFDA39000B857D /* To-Do List */,
+				ED2E57871C0857E800620A17 /* To-Do ListTests */,
+				ED2E57951C08632B00620A17 /* To-Do ListUITests */,
 				4E8AB4991BEFDA39000B857D /* Products */,
 				6A54C004118DDC52DB25A065 /* Pods */,
 				C142214207DD9541FE96A26A /* Frameworks */,
@@ -90,6 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				4E8AB4981BEFDA39000B857D /* To-Do List.app */,
+				ED2E57861C0857E800620A17 /* To-Do ListTests.xctest */,
+				ED2E57941C08632B00620A17 /* To-Do ListUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +181,24 @@
 				1D471C1EF87F362E4E87584E /* libPods-To-Do List.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED2E57871C0857E800620A17 /* To-Do ListTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED2E57881C0857E800620A17 /* To_Do_ListTests.m */,
+				ED2E578A1C0857E800620A17 /* Info.plist */,
+			);
+			path = "To-Do ListTests";
+			sourceTree = "<group>";
+		};
+		ED2E57951C08632B00620A17 /* To-Do ListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED2E57961C08632B00620A17 /* To_Do_ListUITests.m */,
+				ED2E57981C08632B00620A17 /* Info.plist */,
+			);
+			path = "To-Do ListUITests";
 			sourceTree = "<group>";
 		};
 		EDDFD4781BF09DC600D5630F /* Task List */ = {
@@ -242,6 +303,42 @@
 			productReference = 4E8AB4981BEFDA39000B857D /* To-Do List.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ED2E57851C0857E800620A17 /* To-Do ListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2E578F1C0857E800620A17 /* Build configuration list for PBXNativeTarget "To-Do ListTests" */;
+			buildPhases = (
+				ED2E57821C0857E800620A17 /* Sources */,
+				ED2E57831C0857E800620A17 /* Frameworks */,
+				ED2E57841C0857E800620A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED2E578C1C0857E800620A17 /* PBXTargetDependency */,
+			);
+			name = "To-Do ListTests";
+			productName = "To-Do ListTests";
+			productReference = ED2E57861C0857E800620A17 /* To-Do ListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED2E57931C08632B00620A17 /* To-Do ListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2E579B1C08632B00620A17 /* Build configuration list for PBXNativeTarget "To-Do ListUITests" */;
+			buildPhases = (
+				ED2E57901C08632B00620A17 /* Sources */,
+				ED2E57911C08632B00620A17 /* Frameworks */,
+				ED2E57921C08632B00620A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED2E579A1C08632B00620A17 /* PBXTargetDependency */,
+			);
+			name = "To-Do ListUITests";
+			productName = "To-Do ListUITests";
+			productReference = ED2E57941C08632B00620A17 /* To-Do ListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -254,6 +351,14 @@
 					4E8AB4971BEFDA39000B857D = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 2LZJD6L7QQ;
+					};
+					ED2E57851C0857E800620A17 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4E8AB4971BEFDA39000B857D;
+					};
+					ED2E57931C08632B00620A17 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4E8AB4971BEFDA39000B857D;
 					};
 				};
 			};
@@ -271,6 +376,8 @@
 			projectRoot = "";
 			targets = (
 				4E8AB4971BEFDA39000B857D /* To-Do List */,
+				ED2E57851C0857E800620A17 /* To-Do ListTests */,
+				ED2E57931C08632B00620A17 /* To-Do ListUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -283,6 +390,20 @@
 				4E8AB4AE1BEFDA39000B857D /* LaunchScreen.storyboard in Resources */,
 				4E8AB4AB1BEFDA39000B857D /* Assets.xcassets in Resources */,
 				4E8AB4A61BEFDA39000B857D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2E57841C0857E800620A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2E57921C08632B00620A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +464,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED2E57821C0857E800620A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2E57891C0857E800620A17 /* To_Do_ListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2E57901C08632B00620A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2E57971C08632B00620A17 /* To_Do_ListUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED2E578C1C0857E800620A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E8AB4971BEFDA39000B857D /* To-Do List */;
+			targetProxy = ED2E578B1C0857E800620A17 /* PBXContainerItemProxy */;
+		};
+		ED2E579A1C08632B00620A17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E8AB4971BEFDA39000B857D /* To-Do List */;
+			targetProxy = ED2E57991C08632B00620A17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4E8AB4A41BEFDA39000B857D /* Main.storyboard */ = {
@@ -469,6 +619,56 @@
 			};
 			name = Release;
 		};
+		ED2E578D1C0857E800620A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "To-Do ListTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BSUIR.To-Do-ListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/To-Do List.app/To-Do List";
+			};
+			name = Debug;
+		};
+		ED2E578E1C0857E800620A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "To-Do ListTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BSUIR.To-Do-ListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/To-Do List.app/To-Do List";
+			};
+			name = Release;
+		};
+		ED2E579C1C08632B00620A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "To-Do ListUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BSUIR.To-Do-ListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "To-Do List";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ED2E579D1C08632B00620A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "To-Do ListUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BSUIR.To-Do-ListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "To-Do List";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -489,6 +689,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		ED2E578F1C0857E800620A17 /* Build configuration list for PBXNativeTarget "To-Do ListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2E578D1C0857E800620A17 /* Debug */,
+				ED2E578E1C0857E800620A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED2E579B1C08632B00620A17 /* Build configuration list for PBXNativeTarget "To-Do ListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2E579C1C08632B00620A17 /* Debug */,
+				ED2E579D1C08632B00620A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
